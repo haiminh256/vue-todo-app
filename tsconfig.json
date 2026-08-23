@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strict": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
